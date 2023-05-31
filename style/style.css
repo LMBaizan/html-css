@@ -1,0 +1,106 @@
+/**********************************
+Luis Manuel González Baizán
+**********************************/
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 0.9375em;
+    font-weight: 300;
+    color: black;
+    background-color: rgb(251, 242, 234);
+    margin: 1.5625em 3.125em;
+}
+
+header{
+    display: flex;
+    background-color: rgb(40, 37, 37);
+    border-radius: 1.35em;
+    color: white;
+    padding: 0.475em;
+}
+
+.intro{
+    overflow: auto;
+    margin: 1.5625em 3.125em;
+}
+
+.intro h2{
+    display: none;
+}
+
+.intro h3, p, iframe{
+    margin-left: 1em;
+}
+
+.intro picture{
+    float: left;
+    margin-right: 1em;
+}
+
+header h1{
+    float:left;
+    display:flex;
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+header nav ul{
+    float:right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header nav li a{
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+}
+
+.hobbies figure{
+    display: flex;
+    /*width: 18.75em;
+    height: 13.438em;*/
+    width: 37.5em;
+    height: 26.875em;
+}
+
+.hobbies img{
+    width: 0em;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.hobbies img:hover{
+    cursor:crosshair;
+    width: 18.75em;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.endPage {
+    color: white;
+    background-color: rgb(40, 37, 37);
+    text-align: center;
+}
+
+.endPage li{
+    list-style: none;
+}
+
+.endPage li a{
+    color:rgb(164, 192, 248);
+}
