@@ -2,6 +2,7 @@
 Luis Manuel González Baizán
 **********************************/
 
+/*Specificity: 0,0,1*/
 body {
     font-family: Tahoma, sans-serif;
     font-size: 0.9375em;
@@ -11,6 +12,7 @@ body {
     margin: 1.5625em 3.125em;
 }
 
+/*Specificity: 0,0,1*/
 header{
     display: flex;
     background-color: rgb(40, 37, 37);
@@ -19,6 +21,7 @@ header{
     padding: 0.475em;
 }
 
+/*Specificity: 0,0,2*/
 header h1{
     float: left;
     display: flex;
@@ -29,6 +32,7 @@ header h1{
     
 }
 
+/*Specificity: 0,0,3*/
 header nav ul{
     float:right;
     display: flex;
@@ -36,10 +40,12 @@ header nav ul{
     align-items: center;
 }
 
+/*Specificity: 0,0,3*/
 header nav li{
     list-style: none;
 }
 
+/*Specificity: 0,0,4*/
 header nav li a{
     display: block;
     text-transform: uppercase;
@@ -50,28 +56,31 @@ header nav li a{
     padding: 2em;
 }
 
+/*Specificity: 0,1,4*/
 header nav li a:hover{
     color:rgb(244, 168, 110);
 }
 
+/*Specificity: 0,1,0*/
 .intro{
     overflow: auto;
     margin: 1.5625em 3.125em;
 }
 
-.intro h2{
-    display: none;
-}
-
-.intro h3, p, iframe{
+/*Specificity: 0,1,1*/
+/*Specificity: 0,0,1*/
+/*Specificity: 0,0,1*/
+.intro h2, p, iframe{
     margin-left: 1em;
 }
 
+/*Specificity: 0,1,1*/
 .intro picture{
     float: left;
     margin-right: 1em;
 }
 
+/*Specificity: 0,1,1*/
 .hobbies figure{
     display: flex;
     /*width: 18.75em;
@@ -80,6 +89,7 @@ header nav li a:hover{
     height: 26.875em;
 }
 
+/*Specificity: 0,1,1*/
 .hobbies img{
     width: 0em;
     flex-grow: 1;
@@ -88,6 +98,7 @@ header nav li a:hover{
     transition: .5s ease;
 }
 
+/*Specificity: 0,2,1*/
 .hobbies img:hover{
     cursor:crosshair;
     width: 18.75em;
@@ -95,6 +106,7 @@ header nav li a:hover{
     filter: contrast(120%);
 }
 
+/*Specificity: 0,0,1*/
 footer{
     color: white;
     background-color: rgb(40, 37, 37);
@@ -103,10 +115,12 @@ footer{
     border-radius: 1.35em;
 }
 
+/*Specificity: 0,0,2*/
 footer li{
     list-style: none;
 }
 
+/*Specificity: 0,0,3*/
 footer li a{
     color:rgb(164, 192, 248);
 }
