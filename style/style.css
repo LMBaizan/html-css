@@ -19,27 +19,9 @@ header{
     padding: 0.475em;
 }
 
-.intro{
-    overflow: auto;
-    margin: 1.5625em 3.125em;
-}
-
-.intro h2{
-    display: none;
-}
-
-.intro h3, p, iframe{
-    margin-left: 1em;
-}
-
-.intro picture{
-    float: left;
-    margin-right: 1em;
-}
-
 header h1{
-    float:left;
-    display:flex;
+    float: left;
+    display: flex;
     align-items: center;
     font-size: 1.25em;
     font-weight: bold;
@@ -68,6 +50,28 @@ header nav li a{
     padding: 2em;
 }
 
+header nav li a:hover{
+    color:rgb(244, 168, 110);
+}
+
+.intro{
+    overflow: auto;
+    margin: 1.5625em 3.125em;
+}
+
+.intro h2{
+    display: none;
+}
+
+.intro h3, p, iframe{
+    margin-left: 1em;
+}
+
+.intro picture{
+    float: left;
+    margin-right: 1em;
+}
+
 .hobbies figure{
     display: flex;
     /*width: 18.75em;
@@ -91,16 +95,18 @@ header nav li a{
     filter: contrast(120%);
 }
 
-.endPage {
+footer{
     color: white;
     background-color: rgb(40, 37, 37);
     text-align: center;
+    font-size: medium;
+    border-radius: 1.35em;
 }
 
-.endPage li{
+footer li{
     list-style: none;
 }
 
-.endPage li a{
+footer li a{
     color:rgb(164, 192, 248);
 }
