@@ -23,3 +23,5 @@ With respect to code:
 <img width="554" alt="picture responsive" src="https://github.com/LMBaizan/html-css/assets/132277472/8ada2a0c-7341-439a-b9dc-82783f4b3b3c">
 
 3. I have used the embed map provided by google maps.
+4. I have added transition in this part of the application, where if you put the mouse over the photos they become bigger and you can see them better, the main idea is to make it work as a photo gallery.
+<img width="609" alt="gallery" src="https://github.com/LMBaizan/html-css/assets/132277472/34c214ff-ad3e-4e09-811a-ef9f1f33684e">
